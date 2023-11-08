@@ -101,7 +101,4 @@ if(savedTodo){
      toDos = parsedTodo;
     parsedTodo.forEach(makeTodo);    
 }
-//오답노트 : forEach 함수로 배열 안에 있는 item 들을 하나씩 꺼내서
-//명령을 적용시켜준다.
-
-//** 문제 : 근데 새로고침하니까 다시 전에 있던게 생겨난다!! */
+//forEach 함수로 배열 안에 있는 item 들을 하나씩 꺼내서 적용
